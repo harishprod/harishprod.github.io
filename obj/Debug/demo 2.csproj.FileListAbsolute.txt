@@ -1,0 +1,32 @@
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\ApplicationInsights.config
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\csc.exe
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\System.Collections.Immutable.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\vbc.exe
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\VBCSCompiler.exe
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\roslyn\VBCSCompiler.exe.config
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\demo 2.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\demo 2.pdb
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.Web.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.WindowsServer.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.ApplicationInsights.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.Web.xml
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.AI.WindowsServer.xml
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.ApplicationInsights.xml
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\obj\Debug\demo 2.csprojResolveAssemblyReference.cache
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\obj\Debug\demo 2.dll
+c:\users\harish kumar\documents\visual studio 2015\Projects\main2\demo 2\obj\Debug\demo 2.pdb

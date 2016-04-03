@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html>
+<head> 
+    <script src="scripts/jquary.min.preloader.js"></script>
+    <script src="scripts/modemizr.preloader.js"></script>
+    <script src="scripts/for preloder.js"></script>
+    <title>harish.tech</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    
+    
+   
+    <style> 
+        /* Paste this css to your style sheet file or under head tag */
+        /* This only works with JavaScript, 
+        if it's not present, don't show loader */
+       .no-js #loader { display: none;  }
+       .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+       .se-pre-con {
+    	position: fixed;
+     	left: 0px;
+     	top: 0px;
+     	width: 100%;
+     	height: 100%;
+     	z-index: 9999;
+	    background: url(images/loader-64x/Preloader_1.gif) center no-repeat azure;
+
+               }
+        .row{
+            text-align:center;
+        }
+ 
+        button{
+            animation-play-state:running;
+        }
+        .progress{
+           margin:0;
+           padding:0;
+        }
+        .panel{         
+            margin:0;
+            background-color:darkgray;
+            border-radius:30px;
+            box-shadow:rgb(97, 80, 112) 4px 4px;
+            box-sizing:border-box;
+            border-color:burlywood;
+            opacity:0.7;
+        }
+        p{         
+            font-size:110%;
+            position:relative;
+        }
+        .pager {
+            text-align:center;
+            text-decoration-color:goldenrod;
+            text-shadow:5px 5px 4px #ccc;
+            color:lightgoldenrodyellow; 
+            font-style:normal;                
+        }
+        .image{
+            width:15%;
+            height:15%;
+            max-height:200px;
+            min-width:60px;
+            border:2px hidden black;
+            border-bottom-style:ridge;
+            border-radius:50px;
+            border-color:honeydew;
+            border-width:thin;
+            padding:20px 0 0 0;
+            box-shadow:rgb(76, 255, 0)) 6px ,6px;
+            position:relative;
+            opacity:0.9;
+            text-align:center;          
+        }    
+        body {
+            position: relative;
+            background-image:url("Content/bi18.jfif");
+            background-repeat:no-repeat;
+            background-size:cover;        
+        }
+      li{
+          font-family:'Adobe Arabic';
+          font-size:large;
+      }
+        #id {
+            padding-top: 150px;
+            height: 635px;
+            scrollbar-base-color:darkkhaki;
+            background-image:url("Content/header.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            opacity:0.8;       
+        }
+        #section2 {
+            padding-top: 32px;
+            height:640px;
+            background-size:100%;  
+            background-repeat:no-repeat;
+            background-size:cover;    
+            opacity:0.8;        
+        }
+        #section3 {
+            padding-top: 50px;
+            height: 700px;
+            color: #fff;
+            background-image:url("Content/bi18.jfif");
+            background-size:cover;
+            border-bottom-color:mediumpurple;        
+        }
+        #section42 {
+            padding-top: 50px;
+            height: 110px;      
+            background-color:dimgrey;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+        #section41 {
+            padding-top: 50px;
+            height: 530px;
+            background-image:url("Content/bi28.png");
+            background-repeat:no-repeat;
+            background-size:cover;      
+            text-align:center;     
+        }
+           #section41 .im1{             
+               height:6%;
+               width:6%;
+               min-height:45px;
+               min-width:45px;
+             border-radius:15px;   
+             border: 2px double rgba(0, 0, 1, 0.7); 
+             box-shadow:rgba(149, 191, 107, 0.7)  2px 2px;          
+           }
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="page-top" class="index">
+    <div class="se-pre-con"></div>
+    <div class="back">
+        <nav class="navbar navbar-inverse navbar-fixed-top" >
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button onclick="myFunction()" type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#myNavbar" >
+                        <span class="sr-only"></span>
+                        <span class="glyphicon glyphicon-tasks" style="color:#fff; font-size:20px;"></span>
+
+                    </button>
+
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse " id="myNavbar">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li  >
+                                <a href="#id">
+                                    <span   class="glyphicon glyphicon-home  " style="font-size:20px; color:darkorange;"></span><span style="font-style:italic;font-size:30px;">_Introduction</span>
+                                </a> 
+                            </li>
+                            <li><a href="#section2"><span class="glyphicon glyphicon-user" style="font-size:21px; color:darkorange;"></span><span style="font-size:30px; font-style:oblique;">_About-Me</span></a></li>
+                            <li><a href="#section3"><span class="glyphicon glyphicon-heart-empty" style="font-size:20px;color:chocolate;"></span><span style="font-size:30px;font-style:oblique;">Love-To-Do </span></a></li>
+                            <li><a href="#section41"><span class="glyphicon glyphicon-phone" style="color:chocolate; font-size:20px;"><strong> </strong></span>   <span style="font-style:oblique; font-size:30px;"> Contact  </span></a></li>
+                            <li ><a href="resume.pdf" target="_top"><span class="glyphicon  glyphicon-folder-close" style="color:chocolate;font-size:20px;"></span><span style="font-style:oblique; font-size:30px;"> Resume  </span></a></li>                       
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <header>
+                <div id="id" class="container-fluid">
+                    <div class="row">
+                        <div>
+                            <img  class="image" src="Content/h.k.jpg" />
+                        </div>
+                    </div>
+                    <div class="pager">
+                        <h3 >Hi there! i am Harish kumar.</h3>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <div id="section2" class="container-fluid"  style="background: url('Content/glass balls1.jpg') no-repeat center center fixed; 
+              
+  background-size: cover;">
+                    <div class="row ">
+                        <div class="col-xs-12">
+                            <h3 class="pager"> About Me !</h3>
+                            <div>
+                                <div class="container" style="background-color:black ; opacity:0.7;" >
+                                    <p style="visibility: visible; text-align:center;  transform: translateY(0) scale(1); opacity: 1; -webkit-transform: translateY(0) scale(1); opacity: 1; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; font-size:130%; color:white;">I am a 3rd year student, pursuing B.Tech from the<a target="_blank" href="http://nitt.edu/" style="color:black; background-color:azure;"> National Institute of Technology at Tiruchirappalli</a>, India. I spend most of my time programming. Subjects I find fascinating are Algorithms, Data Structures and Web Dev .</p>
+                                </div>
+                                <div class="container  col-md-6 col-md-offset-3" style="background-color:black ; opacity:0.7;">
+                                    <p style="visibility: visible;text-align:center;  transform: translateY(0) scale(1); opacity: 1; -webkit-transform: translateY(0) scale(1); opacity: 1; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; font-size:130%;color:white; "> I have written code in c, c++, pyhton .</p>
+
+                                </div>
+                                <div class="col-md-6 col-md-offset-3" style="background-color:black ; opacity:0.7;">
+                                    <p style="visibility: visible; text-align:center; transform: translateY(0) scale(1); opacity: 1; -webkit-transform: translateY(0) scale(1); opacity: 1; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; font-size:130%; color:white;"> Apart from spending time to improve my coding skills, I generally spend my time watching T.V series, Cricket and by attending boring lectures!</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div id="section3" class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3 class="pager">My skills..</h3>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+
+                    <div class="col-xs-offset-1 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%;">
+                                                <p>HTML</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div  class="progress">
+                                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%; color:beige;">
+                                                <p>CSS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="min-width:3em; width: 56%;">
+                                                <p> Python</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 56%;">
+                                                <p>BootStrap</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+                                                <p>C\C++</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                                                <p>Javscript</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="progress">
+                                            <div class="progress-bar  progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                                <p>Github</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                      
+            <section>
+                <div id="section41" class="container-fluid">
+                    <h3 class="pager">Connect with me..</h3>
+              <div class="row" style="padding:20px ; margin:10px;">
+                      <span >
+                          <label for="linkedin"></label> <a target="_blank" href="https://www.linkedin.com/in/harish1994" id="linkedin"><img class="im1"  src="Content/li2.jfif" /></a>
+                      </span>
+                      <span>
+                          <label for="facebook"></label> <a target="_blank" href="https://www.facebook.com/HarishKumarDigarwal" id="facebook"><img class="im1"   src="Content/face1.png" /></a>
+                      </span>           
+              </div>
+                    <div class="row">
+                       
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div style="padding:0;"id="section42" class="container-fluid">
+                   <div class="col-xs-12">
+                       <h3 style="text-align:center; font-size:100%; color:azure; margin:0; padding-top:1%; float:none;">2016 Harish Kumar</h3>
+                       <h3 style="text-align:center; font-size:100%; color:azure; margin:0; padding-top:1.5%;"> Made with Html, CSS & Bootstrap </h3>
+                       <h3 style="text-align:center; font-size:100%; color:azure; margin:0; padding-top:0.5%;">Gmail: dharish1601@gmail.com</h3>
+                   </div>
+
+                </div>
+            </section>    
+        </div>
+        </div>
+    
+        <script src="scripts/jquery-1.9.1.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+
+        <script>
+           /* $(document).ready(function () {
+                // Add scrollspy to <body>
+                $('body').scrollspy({ target: ".navbar", offset: 50 });
+                // Add smooth scrolling on all links inside the navbar
+                $("#myNavbar a").on('click', function (event) {                 
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+                    // Store hash
+                    var hash = this.hash;                 
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 700, function () {
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                });
+            });*/
+            $(document).ready(function () { $("body").scrollspy({ target: ".navbar", offset: 50 }), $("#myNavbar a").on("click", function (o) { o.preventDefault(); var t = this.hash; $("html, body").animate({ scrollTop: $(t).offset().top }, 700, function () { window.location.hash = t }) }) });
+    </script>     
+</body>
+</html>
