@@ -160,7 +160,7 @@
                             </li>
                             <li><a href="#section2"><span class="glyphicon glyphicon-user" style="font-size:21px; color:darkorange;"></span><span style="font-size:30px; font-style:oblique;">_About-Me</span></a></li>
                             <li><a href="#section3"><span class="glyphicon glyphicon-heart-empty" style="font-size:20px;color:chocolate;"></span><span style="font-size:30px;font-style:oblique;">Love-To-Do </span></a></li>
-                            <li><a href="#section41"><span class="glyphicon glyphicon-phone" style="color:chocolate; font-size:20px;"><strong> </strong></span>   <span style="font-style:oblique; font-size:30px;"> Contact  </span></a></li>
+                            <li><a href="#section41" class="last"><span class="glyphicon glyphicon-phone" style="color:chocolate; font-size:20px;"><strong> </strong></span>   <span style="font-style:oblique; font-size:30px;"> Contact  </span></a></li>
 							 <li><a href="work.html" ><span class="glyphicon glyphicon-folder-close" style="color:chocolate; font-size:20px;"><strong> </strong></span>   <span style="font-style:oblique; font-size:30px;"> Mywork </span></a></li>
                             <li ><a href="resume.pdf" target="_blank"><span class="glyphicon  glyphicon-save" style="color:chocolate;font-size:20px;"></span><span style="font-style:oblique; font-size:30px;"> Resume  </span></a></li>                       
                         </ul>
@@ -352,11 +352,11 @@
         <script src="scripts/bootstrap.min.js"></script>
 
         <script>
-           /* $(document).ready(function () {
+           $(document).ready(function () {
                 // Add scrollspy to <body>
                 $('body').scrollspy({ target: ".navbar", offset: 50 });
                 // Add smooth scrolling on all links inside the navbar
-                $("#myNavbar a").on('click', function (event) {                 
+                $("#myNavbar a").nextUntil('#last').on('click', function (event) {                 
                     // Prevent default anchor click behavior
                     event.preventDefault();
                     // Store hash
@@ -370,8 +370,9 @@
                         window.location.hash = hash;
                     });
                 });
-            });*/
+            });/*
             $(document).ready(function () { $("body").scrollspy({ target: ".navbar", offset: 50 }), $("#myNavbar a").on("click", function (o) { o.preventDefault(); var t = this.hash; $("html, body").animate({ scrollTop: $(t).offset().top }, 700, function () { window.location.hash = t }) }) });
+    */
     </script>     
 </body>
 </html>
